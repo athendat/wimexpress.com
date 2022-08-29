@@ -91,27 +91,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/common/http */ 8987);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/common/http */ 8987);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common */ 4666);
 /* harmony import */ var _components_pages_about_about_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/pages/about/about.module */ 9088);
 /* harmony import */ var _app_routing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.routing */ 6738);
 /* harmony import */ var _components_common_common_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/common/common.module */ 1798);
 /* harmony import */ var _components_pages_contact_contact_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/pages/contact/contact.module */ 7572);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ 5041);
-/* harmony import */ var _components_pages_team_team_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/pages/team/team.component */ 8498);
-/* harmony import */ var _components_pages_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/testimonials/testimonials.component */ 7039);
-/* harmony import */ var _components_pages_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/pages/gallery/gallery.component */ 2321);
-/* harmony import */ var _components_pages_faq_faq_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/faq/faq.component */ 8030);
-/* harmony import */ var _components_pages_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/sign-in/sign-in.component */ 4594);
-/* harmony import */ var _components_pages_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/sign-up/sign-up.component */ 9314);
-/* harmony import */ var _components_pages_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/privacy-policy/privacy-policy.component */ 4587);
-/* harmony import */ var _components_pages_terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/terms-conditions/terms-conditions.component */ 3823);
-/* harmony import */ var _components_pages_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/coming-soon/coming-soon.component */ 2736);
-/* harmony import */ var _components_pages_error_error_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/pages/error/error.component */ 5948);
-/* harmony import */ var _components_pages_services_services_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/pages/services/services.component */ 9343);
-/* harmony import */ var _components_pages_services_details_services_details_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/pages/services-details/services-details.component */ 7564);
+/* harmony import */ var _components_pages_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/pages/coming-soon/coming-soon.component */ 2736);
+/* harmony import */ var _components_pages_error_error_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/pages/error/error.component */ 5948);
+/* harmony import */ var _components_pages_faq_faq_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/pages/faq/faq.component */ 8030);
+/* harmony import */ var _components_pages_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/pages/gallery/gallery.component */ 2321);
+/* harmony import */ var _components_pages_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/pages/privacy-policy/privacy-policy.component */ 4587);
+/* harmony import */ var _components_pages_services_services_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/services/services.component */ 9343);
+/* harmony import */ var _components_pages_services_details_services_details_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/services-details/services-details.component */ 7564);
+/* harmony import */ var _components_pages_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/sign-in/sign-in.component */ 4594);
+/* harmony import */ var _components_pages_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/sign-up/sign-up.component */ 9314);
+/* harmony import */ var _components_pages_team_team_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/pages/team/team.component */ 8498);
+/* harmony import */ var _components_pages_terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/pages/terms-conditions/terms-conditions.component */ 3823);
+/* harmony import */ var _components_pages_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/pages/testimonials/testimonials.component */ 7039);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/core */ 2560);
-// Angular Modules
+
 
 
 // Modules
@@ -138,28 +139,30 @@ class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
 AppModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__.AppComponent] });
-AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineInjector"]({ imports: [_app_routing__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule,
-        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__.BrowserModule,
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_19__.HttpClientModule,
+AppModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵdefineInjector"]({ providers: [
+        { provide: _angular_common__WEBPACK_IMPORTED_MODULE_18__.LocationStrategy, useClass: _angular_common__WEBPACK_IMPORTED_MODULE_18__.HashLocationStrategy },
+    ], imports: [_app_routing__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule,
+        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule,
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_20__.HttpClientModule,
         // Modules
         _components_pages_about_about_module__WEBPACK_IMPORTED_MODULE_0__.AboutModule,
         _components_pages_contact_contact_module__WEBPACK_IMPORTED_MODULE_3__.ContactModule,
         _components_common_common_module__WEBPACK_IMPORTED_MODULE_2__.CommonModule] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_17__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__.AppComponent,
-        _components_pages_team_team_component__WEBPACK_IMPORTED_MODULE_5__.TeamComponent,
-        _components_pages_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_6__.TestimonialsComponent,
-        _components_pages_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_7__.GalleryComponent,
-        _components_pages_faq_faq_component__WEBPACK_IMPORTED_MODULE_8__.FaqComponent,
-        _components_pages_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_9__.SignInComponent,
-        _components_pages_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_10__.SignUpComponent,
-        _components_pages_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_11__.PrivacyPolicyComponent,
-        _components_pages_terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_12__.TermsConditionsComponent,
-        _components_pages_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_13__.ComingSoonComponent,
-        _components_pages_error_error_component__WEBPACK_IMPORTED_MODULE_14__.ErrorComponent,
-        _components_pages_services_services_component__WEBPACK_IMPORTED_MODULE_15__.ServicesComponent,
-        _components_pages_services_details_services_details_component__WEBPACK_IMPORTED_MODULE_16__.ServicesDetailsComponent], imports: [_app_routing__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule,
-        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_18__.BrowserModule,
-        _angular_common_http__WEBPACK_IMPORTED_MODULE_19__.HttpClientModule,
+        _components_pages_coming_soon_coming_soon_component__WEBPACK_IMPORTED_MODULE_5__.ComingSoonComponent,
+        _components_pages_error_error_component__WEBPACK_IMPORTED_MODULE_6__.ErrorComponent,
+        _components_pages_faq_faq_component__WEBPACK_IMPORTED_MODULE_7__.FaqComponent,
+        _components_pages_gallery_gallery_component__WEBPACK_IMPORTED_MODULE_8__.GalleryComponent,
+        _components_pages_privacy_policy_privacy_policy_component__WEBPACK_IMPORTED_MODULE_9__.PrivacyPolicyComponent,
+        _components_pages_services_services_component__WEBPACK_IMPORTED_MODULE_10__.ServicesComponent,
+        _components_pages_services_details_services_details_component__WEBPACK_IMPORTED_MODULE_11__.ServicesDetailsComponent,
+        _components_pages_sign_in_sign_in_component__WEBPACK_IMPORTED_MODULE_12__.SignInComponent,
+        _components_pages_sign_up_sign_up_component__WEBPACK_IMPORTED_MODULE_13__.SignUpComponent,
+        _components_pages_team_team_component__WEBPACK_IMPORTED_MODULE_14__.TeamComponent,
+        _components_pages_terms_conditions_terms_conditions_component__WEBPACK_IMPORTED_MODULE_15__.TermsConditionsComponent,
+        _components_pages_testimonials_testimonials_component__WEBPACK_IMPORTED_MODULE_16__.TestimonialsComponent], imports: [_app_routing__WEBPACK_IMPORTED_MODULE_1__.AppRoutingModule,
+        _angular_platform_browser__WEBPACK_IMPORTED_MODULE_19__.BrowserModule,
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_20__.HttpClientModule,
         // Modules
         _components_pages_about_about_module__WEBPACK_IMPORTED_MODULE_0__.AboutModule,
         _components_pages_contact_contact_module__WEBPACK_IMPORTED_MODULE_3__.ContactModule,
